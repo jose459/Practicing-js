@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title></title>
+</head>
+<body>
+<script>
+var n1; 
+var n2;
+var n3;
+n1=parseInt(prompt('Ingrese primer nota'));
+n2=parseInt(prompt('Ingrese segunda nota'));
+n3=parseInt(prompt('Ingrese tercer nota'));
+var promedio=(n1+n2+n3)/3;
+if(promedio>=7){
+ document.write('Aprobó con '+ promedio);
+}
+else{
+ if(promedio>=4){
+  document.write('Regular'+ promedio);
+ }
+else{
+  document.write('reprobó con '+ promedio);
+}
+}
+</script>
+</body>
+</html>

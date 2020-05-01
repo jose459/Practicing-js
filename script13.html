@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title></title>
+<meta charset="UTF-8">
+</head>
+<body>
+<script>
+var valor;
+do{
+ valor=parseInt(prompt('Ingrese un valor entre 0 y999'));
+ if(valor<10){
+  document.write('El valor' +valor+ 'tiene un dígito');
+ }
+ else{
+  if(valor<100){
+   document.write('El valor' +valor+ 'tiene 2 dígitos');
+  }
+  else{
+   document.write('El valor' +valor+ 'tiene 3 o mas dígitos');
+  }
+ }
+}
+while(valor!=0);
+</script>
+</body>
+</html>
